@@ -7,11 +7,11 @@
 
 using namespace std;
 
-map<string,string> User_operation::user = User_operation::init();
+map<string, string> User_operation::user = User_operation::init();
 
 void uso() {
     Sign_up user;
-    
+
     if (user.ifEmpty()) {
         cout << "               请先注册" << endl;
         cout << "请输入您的用户名，以便注册>>";
